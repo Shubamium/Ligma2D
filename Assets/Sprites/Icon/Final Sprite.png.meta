@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: d4a626ecde3a2fb438c1c0030df6fbe3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7942311306493619051
+    second: Conqueror
+  - first:
+      213: -2935077450533649290
+    second: Down We Go
+  - first:
+      213: 4552747633964287964
+    second: 5 stars
+  - first:
+      213: 5832126089730747172
+    second: 4 Stars
+  - first:
+      213: -2888969972516889852
+    second: Ligma
+  - first:
+      213: 9020729505061617695
+    second: Ligma 5
+  - first:
+      213: -597528523553241156
+    second: Persist 10k
+  - first:
+      213: 3033604137074598508
+    second: Persist 1
+  - first:
+      213: -8900408241634073153
+    second: Persist 25
+  - first:
+      213: -6963709741672303778
+    second: Persist 2
+  - first:
+      213: 3322960373105657089
+    second: Persist 5
+  - first:
+      213: -535133751655446190
+    second: Tough Luck
+  - first:
+      213: 5291782607521317287
+    second: Precision Mode
+  - first:
+      213: 4128559413677300700
+    second: GameMaster
+  - first:
+      213: -8546981733089277961
+    second: Progress 25
+  - first:
+      213: -861423811408963417
+    second: Progress 50
+  - first:
+      213: 4773807660161798894
+    second: Progress 75
+  - first:
+      213: -7295607103871960911
+    second: Progress
+  - first:
+      213: 6014124604873213480
+    second: Start
+  - first:
+      213: -6351539239821947411
+    second: 3Stars
+  - first:
+      213: -3039403061989694650
+    second: TimeSpent 1
+  - first:
+      213: 7485084778516183142
+    second: Time Spent 10
+  - first:
+      213: -7125009516617476682
+    second: Time Spent 2
+  - first:
+      213: -6684434310902152815
+    second: Time Spent 40
+  - first:
+      213: 3500225565984110633
+    second: TimeSpent 5
+  - first:
+      213: 2137386635141729444
+    second: Ligma 10
+  - first:
+      213: -3512910200818402645
+    second: Ligma 25
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Conqueror
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bee179d02c83e60800000000000000
+      internalID: 7942311306493619051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down We Go
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 674cea40c928447d0800000000000000
+      internalID: -2935077450533649290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 5 stars
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd701720adb9e2f30800000000000000
+      internalID: 4552747633964287964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 4 Stars
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b60b757cfdfe050800000000000000
+      internalID: 5832126089730747172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligma
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40b5c5dcd1158e7d0800000000000000
+      internalID: -2888969972516889852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligma 5
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 2009
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f104514e0b1103d70800000000000000
+      internalID: 9020729505061617695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Persist 10k
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1507
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7027249f625b7f0800000000000000
+      internalID: -597528523553241156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Persist 1
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 1507
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62ac73d3e6891a20800000000000000
+      internalID: 3033604137074598508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Persist 25
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1504
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb521715cd56b7480800000000000000
+      internalID: -8900408241634073153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Persist 2
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1507
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e53f1b0a2eeeb5f90800000000000000
+      internalID: -6963709741672303778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Persist 5
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1507
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10589a18ad68d1e20800000000000000
+      internalID: 3322960373105657089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tough Luck
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 1510
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259414920b2d298f0800000000000000
+      internalID: -535133751655446190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Precision Mode
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1005
+        width: 499.16666
+        height: 501
+      alignment: 9
+      pivot: {x: 0.4886208, y: 0.54534924}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a106e59e30307940800000000000000
+      internalID: 5291782607521317287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GameMaster
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1005
+        width: 499.16666
+        height: 501
+      alignment: 9
+      pivot: {x: 0.4715524, y: 0.53968066}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb9456a9e69b4930800000000000000
+      internalID: 4128559413677300700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progress 25
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1005
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f70679c565036980800000000000000
+      internalID: -8546981733089277961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progress 50
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 1005
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a8d7e78b9b9b04f0800000000000000
+      internalID: -861423811408963417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progress 75
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1005
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee29bf136c8ff3240800000000000000
+      internalID: 4773807660161798894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Progress
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 503
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b835e82efbc0ca90800000000000000
+      internalID: -7295607103871960911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Start
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 500
+        width: 499
+        height: 501
+      alignment: 9
+      pivot: {x: 0.18130217, y: 0.7437531}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8268764c676767350800000000000000
+      internalID: 6014124604873213480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3Stars
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 503
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded457996bccad7a0800000000000000
+      internalID: -6351539239821947411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TimeSpent 1
+      rect:
+        serializedVersion: 2
+        x: 1514
+        y: 500
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643aed0c40fd1d5d0800000000000000
+      internalID: -3039403061989694650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Spent 10
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 503
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 668f329c2fc50e760800000000000000
+      internalID: 7485084778516183142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Spent 2
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5dcb43891ee1d90800000000000000
+      internalID: -7125009516617476682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Time Spent 40
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1918e3ee86e1c33a0800000000000000
+      internalID: -6684434310902152815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TimeSpent 5
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 1
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92839367b9c439030800000000000000
+      internalID: 3500225565984110633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligma 10
+      rect:
+        serializedVersion: 2
+        x: 1517
+        y: 1
+        width: 499
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ac4a4ff1d589ad10800000000000000
+      internalID: 2137386635141729444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ligma 25
+      rect:
+        serializedVersion: 2
+        x: 2013
+        y: 1
+        width: 499.16666
+        height: 501
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa7f58d8c2af3fc0800000000000000
+      internalID: -3512910200818402645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
