@@ -32,7 +32,7 @@ public class SegmentedCameraFollow : MonoBehaviour
     private void Start()
     {
         SetupAmount();
-        PlayerPrefs.GetFloat("CAMERA_SPEED", 0.1f);
+        duration = PlayerPrefs.GetFloat("CAMERA_SPEED", 0.4f);
     }
 
     enum Direction
@@ -86,10 +86,10 @@ public class SegmentedCameraFollow : MonoBehaviour
         }
    
        float dt = Time.unscaledDeltaTime;
-       float lerp = Mathf.Lerp(camera.position.y, lerpTarget,  dt / duration );
+       float lerp = Mathf.MoveTowards(camera.position.y, lerpTarget,  dt / (duration / 5));
        camera.position = new Vector3(0, lerp, camera.position.z);
       
-        // If has reached it
+        // If difference of the position of the target and the current position is less than 0.15f just close the distance instantly
         if(Mathf.Abs(camera.position.y - lerpTarget) < 0.01f)
         {
             Debug.Log("Camera Transition Done");

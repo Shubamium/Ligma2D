@@ -7,10 +7,10 @@ public class DifficultyManager : MonoBehaviour
 {
     [SerializeField]
     private Difficulty difficulty;
-    private const float _beginner = 6f;
-    private const float _normal = 2.2f;
-    private const float _hard = 1.1f;
-    private const float _precision = 0.4f;
+    private const float _beginner = 10f; // 6
+    private const float _normal = 6f; // 2.2
+    private const float _hard = 2f; // 1.1
+    private const float _precision = 1f; // 0.4
 
     private void OnEnable()
     {

@@ -12,7 +12,7 @@ public class SettingsMenu : MonoBehaviour
     private Slider musicSlider, effectsSlider;
 
     [SerializeField]
-    private Toggle postProcessingToggle,particlesToggle;
+    private Toggle postProcessingToggle,particlesToggle,cameraTransitionToggle;
     private void OnEnable()
     {
         SetSettings();
@@ -31,7 +31,7 @@ public class SettingsMenu : MonoBehaviour
         //Graphics
         postProcessingToggle.isOn = PlayerPrefs.GetInt("PostProcessing", 1) == 1 ? true : false;
         particlesToggle.isOn = PlayerPrefs.GetInt("Particles", 1) == 1 ? true : false;
-    
+        cameraTransitionToggle.isOn = PlayerPrefs.GetFloat("CAMERA_SPEED", 0.4f) == 0.4f ? true : false;
     }
     public void SetMusicVolume(float volume)
     {
@@ -41,6 +41,11 @@ public class SettingsMenu : MonoBehaviour
     {
         masterMixer.SetFloat("EffectVol", Mathf.Log10(volume)*20);
     }
+    public void SetCameraTransition(bool active)
+    {
+       PlayerPrefs.SetFloat("CAMERA_SPEED", active ? 0.4f : 0);
+    }
+
 
     public void SetPostProcessing(bool var)
     {

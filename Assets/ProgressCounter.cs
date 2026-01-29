@@ -2,7 +2,8 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
+using TMPro;
 public class ProgressCounter : MonoBehaviour
 {
     private float progress;
@@ -10,6 +11,8 @@ public class ProgressCounter : MonoBehaviour
     public Transform end;
 
     public Transform target;
+    public Slider progressSlide;
+    public TMPro.TextMeshProUGUI progressText;
     private void OnEnable()
     {
         SaveSystemNew.OnLoad += SaveSystemNew_OnLoad;
@@ -49,6 +52,9 @@ public class ProgressCounter : MonoBehaviour
             //AP 4
             if (AchievementManager.Instance != null) AchievementManager.Instance.UnlockAchievement(3);
         }
+
+        progressSlide.value = progress / 100;
+        progressText.text = progress.ToString() + '%';
     }
 
     private float GetProgress()
