@@ -21,37 +21,82 @@ public class SegmentedCameraFollow : MonoBehaviour
 
     [SerializeField,Space]
     private int debugAmount;
+
+    [SerializeField]
+    private float currCameraHeight;
+    [SerializeField]
+    private float lerpTarget;
+
+    [SerializeField]
+    private float duration;
     private void Start()
     {
         SetupAmount();
+        PlayerPrefs.GetFloat("CAMERA_SPEED", 0.1f);
     }
 
+    enum Direction
+    {
+        DOWN,
+        UP
+    }
     private void SetupAmount()
     {
-        downAmount = camera.position.y - offsetAmount;
-        upAmount = camera.position.y + offsetAmount;
+        // Reset Target After camera has correctly positioned
+       downAmount = camera.position.y - offsetAmount ;
+       upAmount = camera.position.y + offsetAmount ;
+        currCameraHeight = camera.position.y;
+
     }
 
     private void Update()
     {
         if (target == null) return;
 
+
+
+        // When to move the camera
         if (target.position.y <= downAmount)
         {
             //Move The Camera Down
-            MoveCamera(-offsetAmount*2);
+            MoveCamera(Direction.DOWN);
         }
         if (target.position.y >= upAmount)
         {
             //Move the Camera Up
-            MoveCamera(offsetAmount*2);
+            MoveCamera(Direction.UP);
         }
+      
+       
     }
-    private void MoveCamera(float amount)
+    private void MoveCamera(Direction dir)
     {
-       // Debug.Log("Camera Moved");
-        camera.transform.position += new Vector3(0, amount, 0);
-        SetupAmount();
+        // Debug.Log("Camera Moved");
+        // camera.transform.position += new Vector3(0, amount, 0);
+       Time.timeScale = 0;
+        // If the camera needs to move
+        switch (dir)
+        {
+            case Direction.DOWN:
+                lerpTarget = currCameraHeight - (offsetAmount * 2);
+                break;
+            case Direction.UP:
+                lerpTarget = currCameraHeight + (offsetAmount * 2);
+                    break;
+        }
+   
+       float dt = Time.unscaledDeltaTime;
+       float lerp = Mathf.Lerp(camera.position.y, lerpTarget,  dt / duration );
+       camera.position = new Vector3(0, lerp, camera.position.z);
+      
+        // If has reached it
+        if(Mathf.Abs(camera.position.y - lerpTarget) < 0.01f)
+        {
+            Debug.Log("Camera Transition Done");
+            camera.position = new Vector3(0, lerpTarget, camera.position.z);
+            Time.timeScale = 1;
+            SetupAmount();
+        }
     }
 
     void OnDrawGizmosSelected()
@@ -65,10 +110,10 @@ public class SegmentedCameraFollow : MonoBehaviour
     }
     public void MoveCameraDown()
     {
-        MoveCamera(-offsetAmount * 2);
+        MoveCamera(Direction.DOWN);
     }
     public void MoveCameraUp()
     {
-        MoveCamera(offsetAmount * 2);
+        MoveCamera(Direction.UP);
     }
 }

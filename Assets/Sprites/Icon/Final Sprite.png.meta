@@ -84,7 +84,7 @@ TextureImporter:
       213: -3512910200818402645
     second: Ligma 25
   externalObjects: {}
-  serializedVersion: 11
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -101,10 +101,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -143,6 +145,8 @@ TextureImporter:
   textureFormatSet: 0
   ignorePngGamma: 0
   applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -154,6 +158,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -166,6 +171,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -178,6 +184,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -190,6 +197,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -772,9 +780,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-  spritePackingTag: 
+    nameFileIdTable:
+      3Stars: -6351539239821947411
+      4 Stars: 5832126089730747172
+      5 stars: 4552747633964287964
+      Conqueror: 7942311306493619051
+      Down We Go: -2935077450533649290
+      GameMaster: 4128559413677300700
+      Ligma: -2888969972516889852
+      Ligma 10: 2137386635141729444
+      Ligma 25: -3512910200818402645
+      Ligma 5: 9020729505061617695
+      Persist 1: 3033604137074598508
+      Persist 10k: -597528523553241156
+      Persist 2: -6963709741672303778
+      Persist 25: -8900408241634073153
+      Persist 5: 3322960373105657089
+      Precision Mode: 5291782607521317287
+      Progress: -7295607103871960911
+      Progress 25: -8546981733089277961
+      Progress 50: -861423811408963417
+      Progress 75: 4773807660161798894
+      Start: 6014124604873213480
+      Time Spent 10: 7485084778516183142
+      Time Spent 2: -7125009516617476682
+      Time Spent 40: -6684434310902152815
+      TimeSpent 1: -3039403061989694650
+      TimeSpent 5: 3500225565984110633
+      Tough Luck: -535133751655446190
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
